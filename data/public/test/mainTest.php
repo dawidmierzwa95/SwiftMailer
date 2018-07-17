@@ -16,7 +16,7 @@ class mainTest extends TestCase
     public function testEmailFormat(): void
     {
         $this->assertEquals(
-            'dawidmierzwa95@gmail.com',
+            1,
             Main::formatEmail('dawidmierzwa95@gmail.com')
         );
     }

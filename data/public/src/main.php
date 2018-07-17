@@ -7,12 +7,12 @@ class Main
     /*
      * Set config
      */
-    const EMAIL_FROM = 'dawidmierzwa95@gmail.com';
+    const EMAIL_FROM = '';
     const EMAIL_TO = 'dawidmierzwa95@gmail.com';
-    const SMTP_HOST = 'in-v3.mailjet.com';
+    const SMTP_HOST = '';
     const SMTP_PORT = 25;
-    const SMTP_USERNAME = '8e30a7db7983d444b498bc8bd173126d';
-    const SMTP_PASSWORD = 'c216eee46d91540205502bcc116d3605';
+    const SMTP_USERNAME = '';
+    const SMTP_PASSWORD = '';
 
     private static $reference = null;
     private static $mailer = null;
